@@ -70,8 +70,30 @@ section .dash{
 section .caveat{
     font-size: 14px;
     font-style: italic;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 section .caveat span{
     color: #4dccff;
+}
+footer h3{
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif ;
+    padding-left: o;
+    list-style: none;
+}
+footer ul{
+    padding-left: 0;
+    list-style: none;    
+}
+footer li a {
+    margin-bottom: 10px;
+    color: #82A0BC;
+    list-style: none;
+    text-decoration: none;
+    line-height: 30px;
+}
+footer p{
+    font: size 12px;
+    color: #82a0bc;
+    margin-top: 50px;
 }
