@@ -27,9 +27,17 @@ h1:hover{
     display: inline-block;
     margin-right: 20px;
     background-color: white;
+    margin-bottom: 50px;
 }
 
 .links  li:hover{
     color:#4dccff;
     cursor: pointer;
+}
+.date{
+    font-style: italic;
+    font-style: 14px;
+    position: relative;
+    top: -15px;
+    color: grey;
 }
