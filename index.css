@@ -34,10 +34,19 @@ h1:hover{
     color:#4dccff;
     cursor: pointer;
 }
-.date{
+.description{
     font-style: italic;
     font-style: 14px;
     position: relative;
     top: -15px;
-    color: grey;
+    color: rgb(163, 160, 160);
+}
+.date{
+    font-style: italic;
+    font-style: 14px;
+    color:#066a92;
+}
+.date:hover{
+    color: #4dccff;
+    cursor: pointer;
 }
