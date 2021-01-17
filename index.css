@@ -1,6 +1,7 @@
 body{
    background-color: white;
-   margin:0
+   margin:0;
+   font-family: 'Vollkorn',serif;
 }
 .container{
     width: 50%;
@@ -46,10 +47,28 @@ h1:hover{
 }
 .date{
     font-style: italic;
-    font-style: 14px;
+    font-size: 14px;
     color:#066a92;
 }
 .date:hover{
     color: #4dccff;
     cursor: pointer;
+}
+section p{
+    color: #555555;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 30px;
+}
+.dash{
+    width: 70px;
+    border: 1px solid #555555;
+    float: left
 }
