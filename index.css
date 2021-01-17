@@ -50,25 +50,28 @@ h1:hover{
     font-size: 14px;
     color:#066a92;
 }
-.date:hover{
-    color: #4dccff;
-    cursor: pointer;
+section{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 30px;
 }
 section p{
     color: #555555;
     font-size: 20px;
+    margin-bottom: 30px;
     font-family: 'Times New Roman', Times, serif;
-}
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     line-height: 30px;
 }
-.dash{
-    width: 70px;
-    border: 1px solid #555555;
-    float: left
+section .dash{
+    width: 30px;
+    border: 1px solid rgb(206, 183, 183);
+    float: left;
+    margin-bottom: 20px;
+}
+section .caveat{
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+section .caveat span{
+    color: #4dccff;
 }
