@@ -1,0 +1,52 @@
+body{
+    background-color: white;
+    margin:0
+ }
+ .container{
+     width: 50%;
+     height: 100vh;
+     margin: auto;
+     background-color:white;
+     padding-top:40px
+ }
+ 
+ h1{
+     color: black;
+     font-size: 24px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ h1:hover{
+     color: #4dccff;
+     cursor: pointer;
+ }
+ .links{
+     list-style: none;
+     padding-left: 0;
+ }
+ .links  li a{
+     display: inline-block;
+     margin-right: 20px;
+     background-color: white;
+     margin-bottom: 50px;
+ }
+ 
+ .links  li a:hover{
+     color:#4dccff;
+     cursor: pointer;
+ }
+ .description{
+     font-style: italic;
+     font-style: 14px;
+     position: relative;
+     top: -15px;
+     color: rgb(163, 160, 160);
+ }
+ .date{
+     font-style: italic;
+     font-style: 14px;
+     color:#066a92;
+ }
+ .date:hover{
+     color: #4dccff;
+     cursor: pointer;
+ }

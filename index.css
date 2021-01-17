@@ -26,12 +26,15 @@ h1:hover{
 .links  li{
     display: inline-block;
     margin-right: 20px;
-    background-color: white;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
+}
+.links li a {
+    color: #8d9fa7;;
+    text-decoration: none
 }
 
-.links  li:hover{
-    color:#4dccff;
+.links  li a:hover{
+    color: #4dccff;
     cursor: pointer;
 }
 .description{
